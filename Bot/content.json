@@ -1,0 +1,118 @@
+{"intents": [
+        {"tag": "saludo",
+         "patterns": ["Hola", "¿Cómo estás?", "¿Hay alguien ahí?", "Hola", "Hola", "Hola", "Buenos días", "Buenos dias"],
+         "responses": ["Hola, gracias por preguntar", "Es bueno verte de nuevo", "Hola, ¿cómo puedo ayudar?"],
+         "context": [""]
+        },
+        {"tag": "adios",
+         "patterns":  ["Adios","Chao","Adiós", "Hasta luego", "Adiós", "Encantado de chatear contigo, adiós", "Hasta la próxima"],
+         "responses": ["Nos vemos", "Que tengas un buen día", "¡Adiós! Vuelve pronto"],
+         "context": [""]
+        },
+        {"tag": "gracias",
+         "patterns": ["Gracias", "Gracias", "Eso es útil", "Impresionante, gracias", "Gracias por ayudarme"],
+         "responses": ["¡Feliz de ayudar!", "¡En cualquier momento!", "Es un placer"],
+         "context": [""]
+        },
+        {"tag": "sinrespuesta",
+         "patterns": [],
+         "responses": ["Lo siento, no te entiendo", "Por favor dame más información", "No estoy seguro de entender"],
+         "context": [""]
+        },
+        {"tag": "opciones",
+         "patterns": ["ayuda","¿Cómo podría ayudarme?", "¿Qué puede hacer?", "¿Qué ayuda puede proporcionar?", "¿Cómo puede ser útil?", "¿Qué apoyo se ofrece"],
+         "responses": ["Recomendaciones y sugerencias para el proceso migratorio de venezolanos en Perú", "Ofrecer apoyo para la realizacion de los tramites migratorios en Perú"],
+         "context": [""]
+        },
+        {"tag": "q1",
+         "patterns": ["¿Cómo hago para regularizar mi situación antes de que venza mi permanencia si la página para solicitar Refugio está fuera de servicio?","Regularizacion situación antes del vencimiento de mi permanencia si el sitio de solicitar refugio esta caido?"],
+         "responses": ["Mientras la página esté en mantenimiento, puede solicitar Refugio personalmente en: Av. Paseo de la República 3832, San Isidro (al lado de la Torre RPP. Diagonal a la estación Aramburú de El Metropolitano. Debe consignar un escrito con sus datos personales (incluyendo dirección, teléfono e e-mail de aquí y de Venezuela), exponiendo los motivos por los cuales solicita este beneficio. Debe acompañarlo con copia simple del documento con el que entró al país (Pasaporte o Cédula de Identidad)"],
+         "context": [""]
+        },
+        {"tag": "q2",
+         "patterns": ["¿Qué sucede con la multa por exceso de permanencia cuando se tramita Refugio?",  "que pasa con la multa de exceso de permanencia al tramitar refugio?"],
+         "responses": ["Sí. Una vez tramitada la solicitud de Refugio, puede solicitar un permiso temporal de trabajo. La primera vez se hace en forma presencial en las oficinas ubicadas en Av. Paseo La República, 3832. San Isidro. Debe llevar copias del documento de identidad con el cual ingresó al país y de la solicitud de Refugio. El permiso tiene una validez de 60 días hábiles. La renovación del permiso se realiza online, vía correo electrónico: renovaciones@rree.gob.pe  Debe adjuntar autorización de trabajo vencida y copia de la solicitud de Refugio Debe renovarse cada 60 días."],
+         "context": [""]
+        },
+        {"tag": "q3",
+            "patterns": ["¿Puedo trabajar mientras tramito Refugio?",  "puedo trabajar mientras tramito refugio?"],
+            "responses": ["Sí. Una vez tramitada la solicitud de Refugio, puede solicitar un permiso temporal de trabajo. La primera vez se hace en forma presencial en las oficinas ubicadas en Av. Paseo La República, 3832. San Isidro. Debe llevar copias del documento de identidad con el cual ingresó al país y de la solicitud de Refugio. El permiso tiene una validez de 60 días hábiles."],
+            "context": [""]
+           },
+        {"tag": "q4",
+            "patterns": ["¿Cada cuanto tiempo debe hacerse la renovacion?",  "requisitos para realizar renovacion de refugio?"],
+            "responses": ["La renovación del permiso se realiza online, vía correo electrónico: renovaciones@rree.gob.pe  Debe adjuntar autorización de trabajo vencida y copia de la solicitud de Refugio Debe renovarse cada 60 días"],
+            "context": [""]
+           },   
+        {"tag": "q5",
+         "patterns": ["¿Puedo viajar cuando estoy solicitando refugio?", "puedo salir del pais cuando estoy solicitando refugio"],
+         "responses": ["Si, puede viajar, para poder entrar de nuevo a Perú debe solicitar la Visa humanitaria. El caso de las personas a las que se les ha concedido  Refugio es diferente. Si van a viajar deben solicitar permiso. En caso contrario, pierden el beneficio."],
+         "context": [""]
+        },
+        {"tag": "q6",
+            "patterns": ["¿Qué debo hacer si me conceden el Refugio?", "que pasa si me dan el refugio"],
+            "responses": ["Si el Refugio es concedido, el beneficiario debe dirigirse a Migraciones con la Resolución y tramita el Carnet de Extranjería como Refugiado. La multa por exceso de permanencia es exonerada."],
+            "context": [""]
+           },
+        {"tag": "q7",
+            "patterns": ["¿Cómo hacer para traer un familiar sin pasaporte?", "como hago para traer familiar sin pasaporte"],
+            "responses": ["Aunque la persona haya entrado en forma irregular, debe actualizar sus datos. Hasta hace poco podía solicitar Refugio, no obstante, desde que la página para solicitud de refugio está en mantenimiento, sólo se están tramitando solicitudes de las personas que hayan entrado de forma regular. Para regularizar su situación debe salir y entrar de nuevo al país. Si piensa hacerlo por Ecuador necesita Visa. Tiene la opción de hacerlo por otras fronteras "],
+            "context": [""]
+           },
+        {"tag": "q8",
+            "patterns": ["¿Se puede legalizar la situación de alguien que entró de forma irregular?","si alguien entro ilegal se puede legalizar"],
+            "responses": ["Aunque la persona haya entrado en forma irregular, debe actualizar sus datos. Hasta hace poco podía solicitar Refugio, no obstante, desde que la página para solicitud de refugio está en mantenimiento, sólo se están tramitando solicitudes de las personas que hayan entrado de forma regular. Para regularizar su situación debe salir y entrar de nuevo al país. Si piensa hacerlo por Ecuador necesita Visa. Tiene la opción de hacerlo por otras fronteras"],
+            "context": [""]
+           },
+        {"tag": "q9",
+            "patterns": ["¿Se puede legalizar la situación de alguien que entró de forma irregular?","si alguien entro ilegal se puede legalizar"],
+            "responses": ["Aunque la persona haya entrado en forma irregular, debe actualizar sus datos. Hasta hace poco podía solicitar Refugio, no obstante, desde que la página para solicitud de refugio está en mantenimiento, sólo se están tramitando solicitudes de las personas que hayan entrado de forma regular. Para regularizar su situación debe salir y entrar de nuevo al país. Si piensa hacerlo por Ecuador necesita Visa. Tiene la opción de hacerlo por otras fronteras"],
+            "context": [""]
+           },
+        {"tag": "q10",
+            "patterns": ["¿Puedo viajar a Venezuela y regresar con el PTP (con el CE) o debo sacar visa?","puedo ir a Venezuela y regresar o hay que sacar visa"],
+            "responses": ["Puede viajar sin necesidad de sacar la Visa Humanitaria, pero no puede permanecer fuera del país por más de 183 días consecutivos o alternados contados desde su última salida como beneficiario de esa calidad migratoria"],
+            "context": [""]
+           },
+        {"tag": "q11",
+            "patterns": ["¿Puedo viajar cuando tengo un trámite pendiente en Migraciones?","se puede viajar con tramites pendientes en migraciones"],
+            "responses": ["Puede ausentarse del país cuando tiene un trámite pendiente en Migraciones, pero debe solicitar un Permiso especial de Viaje"],
+            "context": [""]
+           },
+        {"tag": "q12",
+            "patterns": ["¿Cuándo debo solicitar el cambio a la calidad migratoria especial residente?","cuando solicitar cambia de calidad migratoria especial residente"],
+            "responses": ["Debe solicitarse en el transcurso de los 30 días anteriores al vencimiento del PTP."],
+            "context": [""]
+           },
+        {"tag": "q12",
+            "patterns": ["¿Cuándo debo solicitar el cambio a la calidad migratoria especial residente?","cuando solicitar cambia de calidad migratoria especial residente"],
+            "responses": ["Debe solicitarse en el transcurso de los 30 días anteriores al vencimiento del PTP."],
+            "context": [""]
+           },
+        {"tag": "q13",
+         "patterns": ["requisitos tramite cambio calidad migratoria especial","¿Cuáles son los requisitos y procedimientos para tramitar el cambio a calidad migratoria especial residente?"],
+         "responses": ["1.-Cancelar S/ 117,60 (Código: 1814). Pedir la cita online en la página de Migraciones. Migraciones -> Trámites para Venezolanos ->Citas en línea Residente PTP 2.-A la Cita debe llevarse:. Solicitud llenada. Recibo de pago del derecho a trámite. Antecedentes Penales. Se tramitan en el Registro Nacional de Condenas del Poder Judicial. Av Abancay. Cuadra 5. Primer Piso, previo pago de S/ 52,80 (Còdigo 03670). Antecedentes Judiciales. Se tramitan en Jr. Lampa 450, previo pago de S/ 37.70 (Código 0004). Antecedentes Policiales. Actualmente se entregan tickets para la cita, en fechas específicas,  en la sede de DIPROVE. Jr. Conchucos 666, Barrios Altos, Cercado de Lima. Copia del documento con el que ingresó al país (pasaporte o CI). Documentos que acrediten las actividades laborables o de estudios que ha venido desarrollando en el país o, en su defecto, Declaración Jurada. Declaración jurada de no poseer antecedentes a nivel internacional (el formato lo entregan en Migraciones). Los menores de edad deben llevar partida de nacimiento, si no está apostillada, debe entregarse una Declaración Jurada sobre la autenticidad del documento. No necesitan tramitar antecedentes Si el día de la cita falta alguno de los antecedentes, no importa. Debe acudirse a la Cita. El antecedente faltante puede entregarse luego por Mesa de Parte "],
+         "context": [""]
+        },
+        {"tag": "q14",
+            "patterns": ["¿Qué sucede si se vence la permanencia mientras se tramita la calidad migratoria especial residente?"],
+            "responses": ["Nada. Ya está realizando el trámite que le corresponde ante Migraciones."],
+            "context": [""]
+           },
+        {"tag": "q15",
+            "patterns": ["¿Si se me venció el PTP, puedo tramitar el cambio a calidad migratoria especial residente?"],
+            "responses": ["Migraciones ha autorizado que los venezolanos que no tramitaron el cambio de calidad migratoria a tiempo, puedan hacerlo. Los requisitos y el procedimiento son los mismos. Adicionalmente deberán cancelar la multa que les corresponde por exceso de permanencia. La misma aparecerá reflejada al momento de solicitar la cita."],
+            "context": [""]
+           },
+        {"tag": "q16",
+            "patterns": ["Cuándo debo tramitar la prórroga de la calidad migratoria especial residente"],
+            "responses": ["Debe hacerlo en los 30 días que anteceden el vencimiento. Atención: El vencimiento de la permanencia se verifica en la página de Migraciones-> Consultas en línea -> verificar CE"],
+            "context": [""]
+           },
+        {"tag": "q17",
+            "patterns": ["¿Cuáles son los requisitos y procedimientos para tramitar la prórroga de la calidad migratoria especial residente"],
+            "responses": ["Debe hacerlo en los 30 días que anteceden el vencimiento. Atención: El vencimiento de la permanencia se verifica en la página de Migraciones-> Consultas en línea -> verificar CE"],
+            "context": ["1.-Cancelar S/ 25,60 (Código: 1857). Pedir la cita online en la página de Migraciones. Migraciones ->Citas en Línea Inmigración -> Prórrogas -> Residencia-> Especial 2.-A la Cita debe llevarse: .Constancia de solicitud de cita. Recibo de pago del derecho a trámite. Constancia de no adeudo emitida por la SUNAT representantes deberán entregar declaración jurada cuyo formulario es entregado en Migraciones. Declaración jurada de no poseer antecedentes penales, judiciales y policiales. El formulario lo entrega Migraciones el día de la cita. En caso de menores de edad, sus padres deben presentar declaración jurada cuyo formato se les entrega en Migraciones. "]
+           }
+    ]
+    }

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/errod1/django_projects/Tensorflow-Chatbot-master/Bot/model.tflearn"
+all_model_checkpoint_paths: "/home/errod1/django_projects/Tensorflow-Chatbot-master/Bot/model.tflearn"
